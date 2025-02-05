@@ -1,0 +1,30 @@
+###
+POST http://localhost/api/eleves
+Content-Type: application/json
+
+{
+    "data": {
+        "name": "Durand",
+        "firstname": "Emilie",
+ }
+}
+
+###
+GET http://localhost/api/eleves
+
+###
+GET http://localhost/api/groupes/1
+
+###
+PUT http://localhost/api/eleves/
+Content-Type: application/json
+
+{
+    "data": {
+        "namegroupe": "Gr1",
+        "numbergroupe": "1"
+    }
+}
+
+###
+DELETE http://localhost/api/gr1/1
